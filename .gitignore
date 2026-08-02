@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pnpm local build-approval file (breaks Cloudflare's OpenNext `pnpm add` step if committed)
+/pnpm-workspace.yaml
+
+# cloudflare / opennext
+/.open-next
+/.wrangler
+wrangler.jsonc
