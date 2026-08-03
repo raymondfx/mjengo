@@ -62,14 +62,6 @@ export default function Contact() {
                 {company.address}
               </dd>
             </div>
-            <div>
-              <dt className="text-xs font-semibold uppercase tracking-wider text-white/40">
-                Registration
-              </dt>
-              <dd className="mt-1 text-base font-medium text-white">
-                {company.ncaReg}
-              </dd>
-            </div>
           </dl>
         </div>
 

@@ -14,9 +14,6 @@ export default function Footer() {
           <p className="mt-3 text-xs text-white/40">
             {company.address} · {company.poBox}
           </p>
-          <p className="mt-1 text-xs text-white/40">
-            {company.ncaReg} · PIN {company.pin}
-          </p>
         </div>
 
         <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">

@@ -19,7 +19,7 @@ export default function Hero() {
 
       <div className="relative mx-auto w-full max-w-6xl px-5 pb-16 pt-40 sm:pb-20 lg:px-8 lg:pb-24">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-clay-600">
-          NCA2 Registered Building Works Contractor
+          Building Works Contractor · Nairobi, Kenya
         </p>
         <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-6xl">
           Construction built on Quality, Reliability &amp; Durability.

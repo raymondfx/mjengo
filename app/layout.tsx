@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Anirudh Builders Ltd | Building Works Contractor, Nairobi Kenya",
   description:
-    "Anirudh Builders Ltd — NCA2 registered building works contractor in Nairobi, Kenya. Quality, Reliable and Durability. Residential, hospitality, institutional and commercial construction across Kenya.",
+    "Anirudh Builders Ltd — a building works contractor in Nairobi, Kenya. Quality, Reliable and Durability. Residential, hospitality, institutional and commercial construction across Kenya.",
 };
 
 export default function RootLayout({

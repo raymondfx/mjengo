@@ -6,8 +6,6 @@ export const company = {
   location: "Nairobi, Kenya",
   address: "L.R. 209/942, Starehe District, Nairobi",
   poBox: "P.O. Box 38243, 00623, Nairobi",
-  ncaReg: "NCA2 · Reg. No. 77518/B/0923",
-  pin: "P051710304Z",
 };
 
 export const navLinks = [
@@ -109,12 +107,8 @@ export const projects = [
 
 export const credentials = [
   {
-    label: "NCA2 Registered",
-    detail: "Building Works Contractor, Reg. 77518/B/0923",
-  },
-  {
-    label: "KRA Tax Compliant",
-    detail: "Valid tax compliance certificate on file",
+    label: "Full-Service Contractor",
+    detail: "Structural works through to final finishes",
   },
   {
     label: "8+ Regions Served",
@@ -123,5 +117,9 @@ export const credentials = [
   {
     label: "Multi-Sector Portfolio",
     detail: "Residential, hospitality, institutional & industrial",
+  },
+  {
+    label: "Nairobi-Based",
+    detail: "Building across Kenya",
   },
 ];
