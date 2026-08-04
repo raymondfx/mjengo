@@ -86,20 +86,31 @@ export default async function ProjectPage({
           {galleryImages.length > 0 && (
             <div className="mx-auto mt-16 max-w-6xl px-5 lg:px-8">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                {galleryImages.map((image) => (
-                  <div
-                    key={image}
-                    className="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
-                  >
-                    <Image
-                      src={image}
-                      alt={project.title}
-                      fill
-                      sizes="(min-width: 640px) 50vw, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
+                {galleryImages.map((image, i) => {
+                  const isLastOdd =
+                    galleryImages.length % 2 === 1 &&
+                    i === galleryImages.length - 1;
+                  return (
+                    <div
+                      key={image}
+                      className={`relative aspect-[4/3] w-full overflow-hidden rounded-xl ${
+                        isLastOdd ? "sm:col-span-2 sm:aspect-[16/7]" : ""
+                      }`}
+                    >
+                      <Image
+                        src={image}
+                        alt={project.title}
+                        fill
+                        sizes={
+                          isLastOdd
+                            ? "100vw"
+                            : "(min-width: 640px) 50vw, 100vw"
+                        }
+                        className="object-cover"
+                      />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}

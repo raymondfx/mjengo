@@ -235,6 +235,7 @@ export const projects = [
     images: [
       "/images/project-nibs-institute.jpg",
       "/images/project-nibs-door.jpg",
+      "/images/project-nibs-canopy.jpg",
     ],
   },
 ];
