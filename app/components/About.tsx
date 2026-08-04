@@ -19,9 +19,6 @@ export default function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-clay-600">
             About Us
           </p>
-          <h2 className="mt-3 text-3xl font-bold text-stone-950 sm:text-4xl">
-            {company.legalName}
-          </h2>
           <p className="mt-5 text-base leading-relaxed text-stone-950/70">
             {company.name} is a building works contractor based in Nairobi.
             Our portfolio spans private residences, apartment developments,
