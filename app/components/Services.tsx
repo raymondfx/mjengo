@@ -6,7 +6,7 @@ export default function Services() {
     <section id="services" className="bg-stone-950 py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-clay-600">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/50">
             What We Build
           </p>
           <h2 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
@@ -21,7 +21,7 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group relative overflow-hidden rounded-2xl"
+              className="group relative overflow-hidden rounded-xl"
             >
               <div className="relative aspect-[4/3] w-full">
                 <Image

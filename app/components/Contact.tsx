@@ -29,7 +29,7 @@ export default function Contact() {
     <section id="contact" className="bg-stone-950 py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-5 lg:grid-cols-2 lg:gap-16 lg:px-8">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-clay-600">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/50">
             Get In Touch
           </p>
           <h2 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
@@ -48,7 +48,7 @@ export default function Contact() {
               <dd className="mt-1">
                 <a
                   href={`mailto:${company.email}`}
-                  className="text-base font-medium text-white hover:text-clay-600"
+                  className="text-base font-medium text-white hover:text-white/70"
                 >
                   {company.email}
                 </a>
@@ -71,7 +71,7 @@ export default function Contact() {
           onSubmit={() => {
             window.location.href = mailtoHref;
           }}
-          className="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10 sm:p-8"
+          className="rounded-xl bg-white/5 p-6 ring-1 ring-white/10 sm:p-8"
         >
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div className="sm:col-span-1">
@@ -84,7 +84,7 @@ export default function Contact() {
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-clay-600 focus:outline-none"
+                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-white/40 focus:outline-none"
                 placeholder="Your name"
               />
             </div>
@@ -97,7 +97,7 @@ export default function Contact() {
                 type="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-clay-600 focus:outline-none"
+                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-white/40 focus:outline-none"
                 placeholder="07xx xxx xxx"
               />
             </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-clay-600 focus:outline-none"
+                className="mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-white/40 focus:outline-none"
                 placeholder="you@example.com"
               />
             </div>
@@ -124,7 +124,7 @@ export default function Contact() {
                 rows={4}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="mt-2 w-full resize-none rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-clay-600 focus:outline-none"
+                className="mt-2 w-full resize-none rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-white/40 focus:outline-none"
                 placeholder="Tell us about your site, location and scope of work"
               />
             </div>
@@ -132,7 +132,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="mt-6 w-full rounded-full bg-clay-600 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-clay-700"
+            className="mt-6 w-full rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-stone-950 transition-colors hover:bg-white/90"
           >
             Send Enquiry
           </button>

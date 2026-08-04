@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto w-full max-w-6xl px-5 pb-16 pt-40 sm:pb-20 lg:px-8 lg:pb-24">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-clay-600">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/70">
           Building Works Contractor · Nairobi, Kenya
         </p>
         <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-6xl">
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="#projects"
-            className="rounded-full bg-clay-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-clay-600/20 transition-colors hover:bg-clay-700"
+            className="rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-stone-950 shadow-lg shadow-black/20 transition-colors hover:bg-white/90"
           >
             View Our Projects
           </a>

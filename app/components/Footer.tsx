@@ -4,38 +4,63 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-stone-950 border-t border-white/10 py-10">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-5 text-center lg:flex-row lg:items-start lg:justify-between lg:text-left lg:px-8">
-        <div>
-          <p className="text-lg font-bold text-white">
-            ANIRUDH BUILDERS <span className="text-clay-600">LTD</span>
-          </p>
-          <p className="mt-1 text-sm text-white/50">{company.tagline}</p>
-          <p className="mt-3 text-xs text-white/40">
-            {company.address} · {company.poBox}
-          </p>
-        </div>
+    <footer className="bg-stone-950 border-t border-white/10 pt-14">
+      <div className="mx-auto max-w-6xl px-5 lg:px-8">
+        <a
+          href="/#top"
+          className="inline-flex items-center gap-2 text-sm font-medium text-white/60 hover:text-white"
+        >
+          Back to top
+          <span aria-hidden="true">↑</span>
+        </a>
 
-        <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm text-white/60 hover:text-white"
-            >
-              {link.label}
-            </a>
-          ))}
-          <a
-            href={`mailto:${company.email}`}
-            className="text-sm text-white/60 hover:text-white"
-          >
-            {company.email}
-          </a>
-        </nav>
+        <div className="mt-8 grid grid-cols-1 gap-10 border-t border-white/10 pt-10 sm:grid-cols-3">
+          <div>
+            <p className="text-lg font-bold text-white">
+              ANIRUDH BUILDERS <span className="text-white/50">LTD</span>
+            </p>
+            <p className="mt-2 text-sm text-white/50">{company.tagline}</p>
+          </div>
+
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
+              Quick Links
+            </p>
+            <nav className="mt-4 flex flex-col gap-2">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/60 hover:text-white"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
+              Get In Touch
+            </p>
+            <div className="mt-4 flex flex-col gap-2">
+              <a
+                href={`mailto:${company.email}`}
+                className="text-sm text-white/60 hover:text-white"
+              >
+                {company.email}
+              </a>
+              <p className="text-sm text-white/60">
+                {company.address}
+                <br />
+                {company.poBox}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="mx-auto mt-8 max-w-6xl border-t border-white/10 px-5 pt-6 text-center text-xs text-white/30 lg:px-8">
+      <div className="mx-auto mt-10 max-w-6xl border-t border-white/10 px-5 py-6 text-center text-xs text-white/30 lg:px-8">
         © {year} {company.legalName}. All rights reserved.
       </div>
     </footer>

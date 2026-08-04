@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about" className="bg-background py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-5 lg:grid-cols-2 lg:gap-16 lg:px-8">
-        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl lg:aspect-auto">
+        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl lg:aspect-auto">
           <Image
             src="/images/about-cover.jpg"
             alt="A completed residence built by Anirudh Builders Ltd"

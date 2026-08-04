@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { projects } from "../lib/content";
 
 export default function Projects() {
@@ -22,9 +23,9 @@ export default function Projects() {
           </p>
         </div>
 
-        <a
-          href="#contact"
-          className="group relative mt-12 block aspect-[16/9] w-full overflow-hidden rounded-2xl sm:aspect-[21/9]"
+        <Link
+          href={`/projects/${feature.slug}`}
+          className="group relative mt-12 block aspect-[16/9] w-full overflow-hidden rounded-xl sm:aspect-[21/9]"
         >
           <Image
             src={feature.image}
@@ -35,7 +36,7 @@ export default function Projects() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/20 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 p-6 sm:p-10">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-clay-600">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/60">
               Featured Project
             </p>
             <h3 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
@@ -45,13 +46,14 @@ export default function Projects() {
               {feature.location} — {feature.description}
             </p>
           </div>
-        </a>
+        </Link>
 
         <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((project) => (
-            <div
-              key={project.title}
-              className="group relative overflow-hidden rounded-2xl"
+            <Link
+              key={project.slug}
+              href={`/projects/${project.slug}`}
+              className="group relative overflow-hidden rounded-xl"
             >
               <div className="relative aspect-[4/3] w-full">
                 <Image
@@ -71,7 +73,7 @@ export default function Projects() {
                   {project.location}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

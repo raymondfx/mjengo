@@ -23,7 +23,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8">
-        <a href="#top" className="flex items-baseline gap-2">
+        <a href="/#top" className="flex items-baseline gap-2">
           <span
             className={`text-lg font-bold tracking-tight sm:text-xl ${
               scrolled ? "text-stone-950" : "text-white"
@@ -33,7 +33,7 @@ export default function Header() {
           </span>
           <span
             className={`text-xs font-medium tracking-widest ${
-              scrolled ? "text-clay-600" : "text-clay-600"
+              scrolled ? "text-clay-600" : "text-white/70"
             }`}
           >
             LTD
@@ -45,8 +45,10 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-clay-600 ${
-                scrolled ? "text-stone-950/80" : "text-white/90"
+              className={`text-sm font-medium transition-colors ${
+                scrolled
+                  ? "text-stone-950/80 hover:text-clay-600"
+                  : "text-white/90 hover:text-white"
               }`}
             >
               {link.label}
@@ -56,7 +58,7 @@ export default function Header() {
 
         <div className="hidden md:block">
           <a
-            href="#contact"
+            href="/#contact"
             className="rounded-full bg-clay-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-clay-700"
           >
             Get a Quote
@@ -103,7 +105,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="/#contact"
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-clay-600 px-5 py-2.5 text-center text-sm font-semibold text-white"
             >
