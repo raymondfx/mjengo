@@ -18,7 +18,7 @@ export const navLinks = [
 export const categories = [
   {
     title: "Residential",
-    image: "/images/project-muthaiga-north.jpg",
+    image: "/images/project-muthaiga-real.jpg",
   },
   {
     title: "Hospitality & Lodges",
@@ -39,7 +39,7 @@ export const services = [
     title: "Residential Construction",
     description:
       "Family homes, apartment blocks and townhouse developments — from Muthaiga North to Juja South Estate.",
-    image: "/images/project-muthaiga-north.jpg",
+    image: "/images/project-muthaiga-real.jpg",
   },
   {
     title: "Hospitality & Lodges",
@@ -158,8 +158,11 @@ export const projects = [
     description: "24 three-bedroom and 6 four-bedroom apartments.",
     detail:
       "A 30-unit apartment development in Muthaiga North for client Lizzie Muthoni Wanyoike — 24 three-bedroom and 6 four-bedroom units.",
-    image: "/images/project-muthaiga-north.jpg",
-    images: ["/images/project-muthaiga-north.jpg"],
+    image: "/images/project-muthaiga-real.jpg",
+    images: [
+      "/images/project-muthaiga-real.jpg",
+      "/images/project-muthaiga-north.jpg",
+    ],
   },
   {
     slug: "aero-club-of-east-africa",
