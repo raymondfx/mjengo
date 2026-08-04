@@ -43,8 +43,14 @@ export const services = [
   {
     title: "Pools, Landscaping & Finishes",
     description:
-      "Swimming pools, decking, gardens and high-end interior finishes that complete a project with precision.",
+      "Swimming pools, decking and gardens that complete a project with precision.",
     image: "/images/project-rosslyn-2.jpg",
+  },
+  {
+    title: "Interior Fit-Out",
+    description:
+      "Tiling, joinery, fittings and bathroom finishes carried out to a hospitality-grade standard.",
+    image: "/images/project-sopalodge-bathroom.jpg",
   },
   {
     title: "Specialized Facilities",
@@ -102,6 +108,30 @@ export const projects = [
     location: "Karen, Nairobi",
     description: "Commercial office campus for Game Watchers Safaris.",
     image: "/images/project-karen-office.jpg",
+  },
+  {
+    title: "Juja South Estate",
+    location: "Juja",
+    description: "Townhouses and apartment units across a multi-phase estate.",
+    image: "/images/project-juja-south-estate.jpg",
+  },
+  {
+    title: "Swaminarayan Academy",
+    location: "Embakasi, Nairobi",
+    description: "Multi-storey academy building for Swaminarayan Academy.",
+    image: "/images/project-swaminarayan-academy.jpg",
+  },
+  {
+    title: "Aga Khan Academy",
+    location: "Nairobi",
+    description: "Library hall with mezzanine floor for Aga Khan Academy.",
+    image: "/images/project-agakhan-library.jpg",
+  },
+  {
+    title: "NIBS Institute",
+    location: "Ruiru",
+    description: "Training institute campus for NIBS Institute.",
+    image: "/images/project-nibs-institute.jpg",
   },
 ];
 
