@@ -2,6 +2,8 @@ export const company = {
   name: "Anirudh Builders Ltd",
   legalName: "Anirudh Builders Limited",
   tagline: "Quality, Reliable and Durability",
+  description:
+    "Anirudh Builders Ltd is a trusted building works contractor in Nairobi, delivering quality residential, hospitality, institutional and industrial construction across Kenya.",
   emails: ["anirudhbuildersltd@gmail.com", "info@anirudhbuilders.co.ke"],
   location: "Nairobi, Kenya",
   address: "L.R. 209/942, Starehe District, Nairobi",
@@ -24,19 +26,20 @@ export const navLinks = [
 export const categories = [
   {
     title: "Residential",
-    image: "/images/project-muthaiga-real.jpg",
+    image: "/images/projects/Rosslyn_Project_01.jpeg",
   },
   {
     title: "Hospitality & Lodges",
-    image: "/images/project-sopalodge-cottages.jpg",
+    image: "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
   },
   {
     title: "Commercial & Industrial",
-    image: "/images/project-aluproduct-lukenya.jpg",
+    image: "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
   },
   {
     title: "Institutional",
-    image: "/images/project-agakhan-library.jpg",
+    image:
+      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
   },
 ];
 
@@ -45,43 +48,45 @@ export const services = [
     title: "Residential Construction",
     description:
       "Family homes, apartment blocks and townhouse developments — from Muthaiga North to Juja South Estate.",
-    image: "/images/project-muthaiga-real.jpg",
+    image: "/images/projects/Rosslyn_Project_01.jpeg",
   },
   {
     title: "Hospitality & Lodges",
     description:
       "Safari lodges and guest cottages built to blend into the landscape, from Nakuru to the Maasai Mara.",
-    image: "/images/project-sopalodge-cottages.jpg",
+    image:
+      "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
   },
   {
     title: "Commercial & Industrial",
     description:
       "Warehouses, godowns and production facilities engineered for scale, including Aluproduct Industries, Lukenya.",
-    image: "/images/project-aluproduct-lukenya.jpg",
+    image: "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
   },
   {
     title: "Institutional & Education",
     description:
       "Classrooms, libraries and academy buildings for schools including Aga Khan Academy and Marura Primary.",
-    image: "/images/project-karen-office.jpg",
+    image: "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
   },
   {
     title: "Pools, Landscaping & Finishes",
     description:
       "Swimming pools, decking and gardens that complete a project with precision.",
-    image: "/images/project-rosslyn-2.jpg",
+    image: "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
   },
   {
     title: "Interior Fit-Out",
     description:
       "Tiling, joinery, fittings and bathroom finishes carried out to a hospitality-grade standard.",
-    image: "/images/project-sopalodge-bathroom.jpg",
+    image: "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
   },
   {
     title: "Specialized Facilities",
     description:
       "Purpose-built structures for aviation, conservancy and public-sector clients, including the UN and Wilson Airport.",
-    image: "/images/project-wilson-aeroclub.jpg",
+    image:
+      "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
   },
 ];
 
@@ -93,11 +98,12 @@ export const projects = [
     description: "Private residence with infinity-edge pool and deck.",
     detail:
       "A private residence in Rosslyn combining a contemporary stone-and-glass exterior with a full outdoor pool, deck and landscaped garden.",
-    image: "/images/hero-rosslyn.jpg",
+    image: "/images/projects/Rosslyn_Project_01.jpeg",
     images: [
-      "/images/hero-rosslyn.jpg",
-      "/images/project-rosslyn-front.jpg",
-      "/images/project-rosslyn-2.jpg",
+      "/images/projects/Rosslyn_Project_01.jpeg",
+      "/images/projects/Rosslyn_Project_02.jpeg",
+      "/images/projects/Rosslyn_Project_03.jpeg",
+      "/images/projects/Rosslyn_Project_04.jpeg",
     ],
   },
   {
@@ -107,11 +113,11 @@ export const projects = [
     description: "Safari lodge cottages overlooking the lake.",
     detail:
       "Thatched-roof lodge cottages and guest bathrooms built on a hillside overlooking Lake Nakuru, finished to a hospitality standard.",
-    image: "/images/feature-sopalodge-view.jpg",
+    image: "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
     images: [
-      "/images/feature-sopalodge-view.jpg",
-      "/images/project-sopalodge-cottages.jpg",
-      "/images/project-sopalodge-bathroom.jpg",
+      "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_03.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
     ],
   },
   {
@@ -121,11 +127,13 @@ export const projects = [
     description: "Four-bedroom guest cottages for a private conservancy.",
     detail:
       "Four-bedroom guest cottages and a lounge with fireplace, built for Game Watchers Safaris inside a private wildlife conservancy in the Maasai Mara.",
-    image: "/images/project-masaimara-cottages.jpg",
+    image:
+      "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
     images: [
-      "/images/project-masaimara-cottages.jpg",
-      "/images/project-masaimara-lounge.jpg",
-      "/images/project-masaimara-wildlife.jpg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
+      "/images/projects/Masai_Mara_Wildlife_Near_Cottages_01.jpeg",
+      "/images/projects/Masai_Mara_Wildlife_Near_Cottages_02.jpeg",
     ],
   },
   {
@@ -135,12 +143,13 @@ export const projects = [
     description: "22 godowns for Vekariya Investment.",
     detail:
       "A row of 22 industrial godowns for Vekariya Investment in Lukenya, including production floor space and loading access for each unit.",
-    image: "/images/project-aluproduct-lukenya.jpg",
+    image: "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
     images: [
-      "/images/project-aluproduct-row.jpg",
-      "/images/project-aluproduct-door.jpg",
-      "/images/project-aluproduct-lukenya.jpg",
-      "/images/project-aluproduct-interior2.jpg",
+      "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
+      "/images/projects/Vekariya_Investment_22_Godowns_01.jpeg",
+      "/images/projects/Aluproduct_Industries_Lukenya_02.jpeg",
+      "/images/projects/Aluproduct_Industries_Lukenya_04.jpeg",
+      "/images/projects/Aluproduct_Industries_Lukenya_07.jpeg",
     ],
   },
   {
@@ -150,11 +159,12 @@ export const projects = [
     description: "Private residence for Stefano & Elizabeth.",
     detail:
       "A stone-built private residence in Kisuri Hills, Naivasha, with covered verandas, courtyards and landscaped gardens throughout.",
-    image: "/images/project-kisuri-hills-naivasha.jpg",
+    image: "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
     images: [
-      "/images/project-kisuri-hills-naivasha.jpg",
-      "/images/project-kisuri-courtyard.jpg",
-      "/images/project-kisuri-sideview.jpg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_03.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_05.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_07.jpeg",
     ],
   },
   {
@@ -167,7 +177,7 @@ export const projects = [
     image: "/images/project-muthaiga-real.jpg",
     images: [
       "/images/project-muthaiga-real.jpg",
-      "/images/project-muthaiga-north.jpg",
+      "/images/projects/Muthaiga_North_Apartments_Townhouses_03.jpeg",
     ],
   },
   {
@@ -177,8 +187,11 @@ export const projects = [
     description: "Security building for the Aero Club of East Africa.",
     detail:
       "A dedicated security building for the Aero Club of East Africa at Wilson Airport, Nairobi.",
-    image: "/images/project-wilson-aeroclub.jpg",
-    images: ["/images/project-wilson-aeroclub.jpg"],
+    image:
+      "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
+    images: [
+      "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
+    ],
   },
   {
     slug: "game-watchers-karen-office",
@@ -187,11 +200,12 @@ export const projects = [
     description: "Commercial office campus for Game Watchers Safaris.",
     detail:
       "A campus of standalone office cottages set among mature trees in Karen, built as the Nairobi headquarters for Game Watchers Safaris.",
-    image: "/images/project-karen-office.jpg",
+    image: "/images/projects/Game_Watchers_Karen_Office_01.jpeg",
     images: [
-      "/images/project-karen-office.jpg",
-      "/images/project-karen-cottage.jpg",
-      "/images/project-karen-driveway.jpg",
+      "/images/projects/Game_Watchers_Karen_Office_01.jpeg",
+      "/images/projects/Game_Watchers_Karen_Office_02.jpeg",
+      "/images/projects/Game_Watchers_Karen_Office_03.jpeg",
+      "/images/projects/Game_Watchers_Karen_Office_04.jpeg",
     ],
   },
   {
@@ -201,10 +215,12 @@ export const projects = [
     description: "Townhouses and apartment units across a multi-phase estate.",
     detail:
       "A multi-phase residential estate in Juja South comprising two- and three-bedroom apartments, penthouses and townhouses.",
-    image: "/images/project-juja-south-estate.jpg",
+    image: "/images/projects/Juja_South_Estate_3Bedroom_Townhouse_01.jpeg",
     images: [
-      "/images/project-juja-row.jpg",
-      "/images/project-juja-south-estate.jpg",
+      "/images/projects/Juja_South_Estate_3Bedroom_Townhouse_01.jpeg",
+      "/images/projects/Juja_South_Estate_3Bedroom_Townhouse_02.jpeg",
+      "/images/projects/Juja_South_Estate_4Bedroom_01.jpeg",
+      "/images/projects/Juja_South_Estate_4Bedroom_02.jpeg",
     ],
   },
   {
@@ -214,10 +230,10 @@ export const projects = [
     description: "Multi-storey academy building for Swaminarayan Academy.",
     detail:
       "A multi-storey academy building for Swaminarayan Academy in Embakasi, built around a full-height naturally lit atrium.",
-    image: "/images/project-swaminarayan-academy.jpg",
+    image: "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
     images: [
-      "/images/project-swaminarayan-exterior.jpg",
-      "/images/project-swaminarayan-academy.jpg",
+      "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
+      "/images/projects/Swaminarayan_Academy_Embakasi_01.jpeg",
     ],
   },
   {
@@ -227,10 +243,13 @@ export const projects = [
     description: "Library hall with mezzanine floor for Aga Khan Academy.",
     detail:
       "A library hall for Aga Khan Academy with a mezzanine floor, built-in shelving and a spiral staircase connecting the two levels.",
-    image: "/images/project-agakhan-library.jpg",
+    image:
+      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
     images: [
-      "/images/project-agakhan-library.jpg",
-      "/images/project-agakhan-stairs.jpg",
+      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
+      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_02.jpeg",
+      "/images/projects/Aga_Khan_Academy_Library_Hall_02.jpeg",
+      "/images/projects/Aga_Khan_Academy_Library_Hall_03.jpeg",
     ],
   },
   {
@@ -240,11 +259,12 @@ export const projects = [
     description: "Training institute campus for NIBS Institute.",
     detail:
       "A training institute campus for NIBS Institute in Ruiru, including covered walkways and timber joinery finishes throughout.",
-    image: "/images/project-nibs-institute.jpg",
+    image: "/images/projects/Nibs_Institute_Ruiru_01.jpeg",
     images: [
-      "/images/project-nibs-institute.jpg",
-      "/images/project-nibs-door.jpg",
-      "/images/project-nibs-canopy.jpg",
+      "/images/projects/Nibs_Institute_Ruiru_01.jpeg",
+      "/images/projects/Nibs_Institute_Ruiru_02.jpeg",
+      "/images/projects/Nibs_Institute_Ruiru_03.jpeg",
+      "/images/projects/Nibs_Institute_Ruiru_05.jpeg",
     ],
   },
 ];
