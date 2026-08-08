@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import QuoteButton from "../../components/QuoteButton";
 import { projects, company } from "../../lib/content";
 
 export function generateStaticParams() {
@@ -75,12 +76,9 @@ export default async function ProjectPage({
             <p className="text-lg leading-relaxed text-stone-950/70">
               {project.detail}
             </p>
-            <a
-              href="/#contact"
-              className="mt-8 inline-block rounded-full bg-clay-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-clay-700"
-            >
+            <QuoteButton className="mt-8 inline-block rounded-full bg-clay-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-clay-700">
               Request a Quote
-            </a>
+            </QuoteButton>
           </div>
 
           {galleryImages.length > 0 && (

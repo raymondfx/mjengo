@@ -1,4 +1,5 @@
 import Image from "next/image";
+import QuoteButton from "./QuoteButton";
 
 export default function DreamBanner() {
   return (
@@ -20,12 +21,9 @@ export default function DreamBanner() {
           Step into a build where careful planning and lasting quality meet —
           from the first site visit to final handover.
         </p>
-        <a
-          href="#contact"
-          className="mt-8 inline-block rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-stone-950 transition-colors hover:bg-white/90"
-        >
+        <QuoteButton className="mt-8 inline-block rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-stone-950 transition-colors hover:bg-white/90">
           Request a Quote
-        </a>
+        </QuoteButton>
       </div>
     </section>
   );

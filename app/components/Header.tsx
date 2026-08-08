@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { company, navLinks } from "../lib/content";
+import { openQuote } from "../lib/quote";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -57,12 +58,13 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <a
-            href="/#contact"
+          <button
+            type="button"
+            onClick={openQuote}
             className="rounded-full bg-clay-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-clay-700"
           >
             Get a Quote
-          </a>
+          </button>
         </div>
 
         <button
@@ -104,13 +106,16 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="/#contact"
-              onClick={() => setOpen(false)}
+            <button
+              type="button"
+              onClick={() => {
+                setOpen(false);
+                openQuote();
+              }}
               className="mt-2 rounded-full bg-clay-600 px-5 py-2.5 text-center text-sm font-semibold text-white"
             >
               Get a Quote
-            </a>
+            </button>
             <a
               href={`mailto:${company.emails[0]}`}
               className="mt-1 px-3 py-1 text-xs text-stone-950/60"

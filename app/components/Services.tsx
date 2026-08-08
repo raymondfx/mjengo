@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { services } from "../lib/content";
+import QuoteButton from "./QuoteButton";
 
 const iconPaths: Record<string, React.ReactNode> = {
   home: (
@@ -118,10 +119,7 @@ export default function Services() {
           ))}
 
           {/* Closing CTA tile */}
-          <a
-            href="#contact"
-            className="group flex flex-col justify-between rounded-2xl bg-white p-6 text-stone-950 transition-colors duration-300 hover:bg-white/90 sm:p-7"
-          >
+          <QuoteButton className="group flex w-full flex-col justify-between rounded-2xl bg-white p-6 text-left text-stone-950 transition-colors duration-300 hover:bg-white/90 sm:p-7">
             <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-stone-950 text-white">
               <svg
                 viewBox="0 0 24 24"
@@ -148,7 +146,7 @@ export default function Services() {
                 <span aria-hidden="true">→</span>
               </span>
             </div>
-          </a>
+          </QuoteButton>
         </div>
       </div>
     </section>
