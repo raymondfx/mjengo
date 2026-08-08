@@ -3,7 +3,12 @@
 import { useState } from "react";
 import { company } from "../lib/content";
 
-const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ?? "";
+// Web3Forms access keys are public by design (safe to expose client-side).
+// Env var wins when set; the hardcoded fallback keeps the form working in any
+// deployment even if the env var isn't configured at build time.
+const ACCESS_KEY =
+  process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ||
+  "2fba6b99-dffe-459a-aefb-239eebab820b";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
