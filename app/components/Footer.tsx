@@ -44,12 +44,24 @@ export default function Footer() {
               Get In Touch
             </p>
             <div className="mt-4 flex flex-col gap-2">
-              <a
-                href={`mailto:${company.email}`}
-                className="text-sm text-white/60 hover:text-white"
-              >
-                {company.email}
-              </a>
+              {company.phones.map((phone) => (
+                <a
+                  key={phone.tel}
+                  href={`tel:${phone.tel}`}
+                  className="text-sm text-white/60 hover:text-white"
+                >
+                  {phone.display}
+                </a>
+              ))}
+              {company.emails.map((email) => (
+                <a
+                  key={email}
+                  href={`mailto:${email}`}
+                  className="text-sm text-white/60 hover:text-white"
+                >
+                  {email}
+                </a>
+              ))}
               <p className="text-sm text-white/60">
                 {company.address}
                 <br />

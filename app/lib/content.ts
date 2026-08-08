@@ -2,7 +2,7 @@ export const company = {
   name: "Anirudh Builders Ltd",
   legalName: "Anirudh Builders Limited",
   tagline: "Quality, Reliable and Durability",
-  email: "anirudhbuildersltd@gmail.com",
+  emails: ["anirudhbuildersltd@gmail.com", "info@anirudhbuilders.co.ke"],
   location: "Nairobi, Kenya",
   address: "L.R. 209/942, Starehe District, Nairobi",
   poBox: "P.O. Box 38243, 00623, Nairobi",

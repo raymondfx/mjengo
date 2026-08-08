@@ -22,7 +22,7 @@ export default function Contact() {
       subject,
       body: bodyLines.join("\n"),
     });
-    return `mailto:${company.email}?${params.toString()}`;
+    return `mailto:${company.emails[0]}?${params.toString()}`;
   })();
 
   return (
@@ -43,15 +43,34 @@ export default function Contact() {
           <dl className="mt-10 space-y-6">
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wider text-white/40">
+                Phone
+              </dt>
+              <dd className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
+                {company.phones.map((phone) => (
+                  <a
+                    key={phone.tel}
+                    href={`tel:${phone.tel}`}
+                    className="text-base font-medium text-white hover:text-white/70"
+                  >
+                    {phone.display}
+                  </a>
+                ))}
+              </dd>
+            </div>
+            <div>
+              <dt className="text-xs font-semibold uppercase tracking-wider text-white/40">
                 Email
               </dt>
-              <dd className="mt-1">
-                <a
-                  href={`mailto:${company.email}`}
-                  className="text-base font-medium text-white hover:text-white/70"
-                >
-                  {company.email}
-                </a>
+              <dd className="mt-1 flex flex-col gap-1">
+                {company.emails.map((email) => (
+                  <a
+                    key={email}
+                    href={`mailto:${email}`}
+                    className="text-base font-medium text-white hover:text-white/70"
+                  >
+                    {email}
+                  </a>
+                ))}
               </dd>
             </div>
             <div>
@@ -137,7 +156,7 @@ export default function Contact() {
             Send Enquiry
           </button>
           <p className="mt-3 text-center text-xs text-white/40">
-            Opens your email app addressed to {company.email}
+            Opens your email app addressed to {company.emails[0]}
           </p>
         </form>
       </div>

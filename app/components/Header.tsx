@@ -112,10 +112,10 @@ export default function Header() {
               Get a Quote
             </a>
             <a
-              href={`mailto:${company.email}`}
+              href={`mailto:${company.emails[0]}`}
               className="mt-1 px-3 py-1 text-xs text-stone-950/60"
             >
-              {company.email}
+              {company.emails[0]}
             </a>
           </nav>
         </div>
