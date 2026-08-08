@@ -46,12 +46,14 @@ export const categories = [
 export const services = [
   {
     title: "Residential Construction",
+    icon: "home",
     description:
       "Family homes, apartment blocks and townhouse developments — from Muthaiga North to Juja South Estate.",
     image: "/images/projects/Rosslyn_Project_01.jpeg",
   },
   {
     title: "Hospitality & Lodges",
+    icon: "lodge",
     description:
       "Safari lodges and guest cottages built to blend into the landscape, from Nakuru to the Maasai Mara.",
     image:
@@ -59,30 +61,35 @@ export const services = [
   },
   {
     title: "Commercial & Industrial",
+    icon: "industrial",
     description:
       "Warehouses, godowns and production facilities engineered for scale, including Aluproduct Industries, Lukenya.",
     image: "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
   },
   {
     title: "Institutional & Education",
+    icon: "education",
     description:
       "Classrooms, libraries and academy buildings for schools including Aga Khan Academy and Marura Primary.",
     image: "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
   },
   {
     title: "Pools, Landscaping & Finishes",
+    icon: "pool",
     description:
       "Swimming pools, decking and gardens that complete a project with precision.",
-    image: "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
+    image: "/images/projects/Rosslyn_Project_05.jpeg",
   },
   {
     title: "Interior Fit-Out",
+    icon: "interior",
     description:
       "Tiling, joinery, fittings and bathroom finishes carried out to a hospitality-grade standard.",
-    image: "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
+    image: "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
   },
   {
     title: "Specialized Facilities",
+    icon: "specialized",
     description:
       "Purpose-built structures for aviation, conservancy and public-sector clients, including the UN and Wilson Airport.",
     image:
