@@ -6,7 +6,13 @@ export const company = {
   location: "Nairobi, Kenya",
   address: "L.R. 209/942, Starehe District, Nairobi",
   poBox: "P.O. Box 38243, 00623, Nairobi",
+  phones: [
+    { display: "0720 004 242", tel: "+254720004242" },
+    { display: "0733 833 970", tel: "+254733833970" },
+  ],
 };
+
+export const directors = ["Hasmukh Pindoriya", "Rajendra Vekaria"];
 
 export const navLinks = [
   { href: "/#about", label: "About" },

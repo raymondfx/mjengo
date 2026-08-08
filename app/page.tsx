@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
 import About from "./components/About";
+import Directors from "./components/Directors";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import DreamBanner from "./components/DreamBanner";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Categories />
         <About />
+        <Directors />
         <Services />
         <Projects />
         <DreamBanner />
