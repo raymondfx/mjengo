@@ -45,55 +45,129 @@ export const categories = [
 
 export const services = [
   {
+    slug: "residential-construction",
     title: "Residential Construction",
     icon: "home",
     description:
       "Family homes, apartment blocks and townhouse developments — from Muthaiga North to Juja South Estate.",
+    detail:
+      "From private residences and apartment blocks to townhouse estates, we deliver homes across Nairobi and beyond — including the Rosslyn residence, Muthaiga North apartments, Kisuri Hills in Naivasha and Juja South Estate.",
     image: "/images/projects/Rosslyn_Project_01.jpeg",
+    images: [
+      "/images/projects/Rosslyn_Project_01.jpeg",
+      "/images/projects/Rosslyn_Project_02.jpeg",
+      "/images/projects/Muthaiga_North_Apartments_Townhouses_03.jpeg",
+      "/images/projects/Juja_South_Estate_3Bedroom_Townhouse_01.jpeg",
+      "/images/projects/Juja_South_Estate_4Bedroom_01.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_05.jpeg",
+    ],
   },
   {
+    slug: "hospitality-lodges",
     title: "Hospitality & Lodges",
     icon: "lodge",
     description:
       "Safari lodges and guest cottages built to blend into the landscape, from Nakuru to the Maasai Mara.",
+    detail:
+      "Safari lodges and guest cottages built to sit lightly in the landscape — from Sopa Lodge above Lake Nakuru to Game Watchers' four-bedroom cottages deep in the Porini Olkinyei Conservancy, Maasai Mara.",
     image:
       "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
+    images: [
+      "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_03.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
+      "/images/projects/Masai_Mara_Wildlife_Near_Cottages_01.jpeg",
+    ],
   },
   {
+    slug: "commercial-industrial",
     title: "Commercial & Industrial",
     icon: "industrial",
     description:
       "Warehouses, godowns and production facilities engineered for scale, including Aluproduct Industries, Lukenya.",
+    detail:
+      "Warehouses, godowns, production plants and commercial campuses engineered for scale — including the Aluproduct Industries plant and 22 godowns for Vekariya Investment in Lukenya, the Kenchic warehouse and the Game Watchers office campus in Karen.",
     image: "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
+    images: [
+      "/images/projects/Aluproduct_Industries_Lukenya_01.jpeg",
+      "/images/projects/Aluproduct_Industries_Lukenya_02.jpeg",
+      "/images/projects/Vekariya_Investment_22_Godowns_01.jpeg",
+      "/images/projects/Aluproduct_Industries_Lukenya_04.jpeg",
+      "/images/projects/Kenchic_Warehouse_01.jpeg",
+      "/images/projects/Game_Watchers_Karen_Office_01.jpeg",
+    ],
   },
   {
+    slug: "institutional-education",
     title: "Institutional & Education",
     icon: "education",
     description:
       "Classrooms, libraries and academy buildings for schools including Aga Khan Academy and Marura Primary.",
+    detail:
+      "Classrooms, libraries, halls and multi-storey academy buildings for schools and institutions — including Aga Khan Academy, Swaminarayan Academy in Embakasi and Marura Primary School, Kariobangi North.",
     image: "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
+    images: [
+      "/images/projects/Swaminarayan_Academy_Embakasi_03.jpeg",
+      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
+      "/images/projects/Aga_Khan_Academy_Library_Hall_02.jpeg",
+      "/images/projects/Kariobangi_North_Marura_Primary_School_01.jpeg",
+      "/images/projects/Kariobangi_North_Marura_Primary_School_Multipurpose_Hall_01.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_02.jpeg",
+    ],
   },
   {
+    slug: "pools-landscaping-finishes",
     title: "Pools, Landscaping & Finishes",
     icon: "pool",
     description:
       "Swimming pools, decking and gardens that complete a project with precision.",
+    detail:
+      "Swimming pools, decking, driveways and landscaped gardens that complete a build — from the tiled infinity pool and deck in Rosslyn to the stone-walled gardens and courtyards of Kisuri Hills, Naivasha.",
     image: "/images/projects/Rosslyn_Project_05.jpeg",
+    images: [
+      "/images/projects/Rosslyn_Project_05.jpeg",
+      "/images/projects/Rosslyn_Project_06.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
+      "/images/projects/Rosslyn_Project_03.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_02.jpeg",
+    ],
   },
   {
+    slug: "interior-fit-out",
     title: "Interior Fit-Out",
     icon: "interior",
     description:
       "Tiling, joinery, fittings and bathroom finishes carried out to a hospitality-grade standard.",
+    detail:
+      "Tiling, joinery, fittings and bathroom finishes carried out to a hospitality-grade standard — timber ceilings and finishes for the Maasai Mara lodges, washroom fit-outs for the United Nations and joinery for the NIBS Institute in Ruiru.",
     image: "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
+    images: [
+      "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Lounge_02.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
+      "/images/projects/Nibs_Institute_Ruiru_03.jpeg",
+      "/images/projects/Nibs_Institute_Ruiru_05.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_01.jpeg",
+    ],
   },
   {
+    slug: "specialized-facilities",
     title: "Specialized Facilities",
     icon: "specialized",
     description:
       "Purpose-built structures for aviation, conservancy and public-sector clients, including the UN and Wilson Airport.",
+    detail:
+      "Purpose-built structures for aviation, conservancy and public-sector clients — including a security building for the Aero Club of East Africa at Wilson Airport and washroom facilities for the United Nations.",
     image:
       "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
+    images: [
+      "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_01.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_02.jpeg",
+      "/images/projects/Kenchic_Warehouse_01.jpeg",
+    ],
   },
 ];
 

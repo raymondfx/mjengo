@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { services } from "../lib/content";
 import QuoteButton from "./QuoteButton";
 
@@ -89,9 +90,10 @@ export default function Services() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <div
+            <Link
               key={service.title}
-              className="group overflow-hidden rounded-2xl bg-white/[0.04] ring-1 ring-white/10 transition-colors duration-300 hover:bg-white/[0.07] hover:ring-white/25"
+              href={`/services/${service.slug}`}
+              className="group flex flex-col overflow-hidden rounded-2xl bg-white/[0.04] ring-1 ring-white/10 transition-colors duration-300 hover:bg-white/[0.07] hover:ring-white/25"
             >
               <div className="relative aspect-[16/10] w-full overflow-hidden">
                 <Image
@@ -112,10 +114,21 @@ export default function Services() {
                   {service.title}
                 </h3>
               </div>
-              <p className="p-5 text-sm leading-relaxed text-white/60">
-                {service.description}
-              </p>
-            </div>
+              <div className="flex flex-1 flex-col p-5">
+                <p className="text-sm leading-relaxed text-white/60">
+                  {service.description}
+                </p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-white transition-colors group-hover:text-brand">
+                  View sector
+                  <span
+                    aria-hidden="true"
+                    className="transition-transform group-hover:translate-x-1"
+                  >
+                    →
+                  </span>
+                </span>
+              </div>
+            </Link>
           ))}
 
           {/* Closing CTA tile */}
