@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { OPEN_QUOTE_EVENT } from "../lib/quote";
 import QuoteForm from "./QuoteForm";
+import LogoMark from "./LogoMark";
 
 export default function QuoteModal() {
   const [open, setOpen] = useState(false);
@@ -42,6 +43,7 @@ export default function QuoteModal() {
       <div className="relative z-10 max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl bg-stone-950 p-6 shadow-2xl ring-1 ring-white/15 sm:p-8">
         <div className="flex items-start justify-between">
           <div>
+            <LogoMark tone="dark" className="mb-3 h-8 w-auto" />
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">
               Get In Touch
             </p>

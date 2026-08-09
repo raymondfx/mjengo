@@ -1,4 +1,5 @@
 import { company, navLinks } from "../lib/content";
+import LogoMark from "./LogoMark";
 
 function PinIcon() {
   return (
@@ -72,9 +73,12 @@ export default function Footer() {
         <div className="mt-8 grid grid-cols-1 gap-10 border-t border-white/10 pt-10 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8">
           {/* Brand + description */}
           <div className="lg:col-span-4">
-            <p className="text-lg font-bold text-white">
-              ANIRUDH BUILDERS <span className="text-white/50">LTD</span>
-            </p>
+            <div className="flex items-center gap-2.5">
+              <LogoMark tone="dark" className="h-9 w-auto" />
+              <p className="text-lg font-bold text-white">
+                ANIRUDH BUILDERS <span className="text-white/50">LTD</span>
+              </p>
+            </div>
             <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/40">
               {company.tagline}
             </p>

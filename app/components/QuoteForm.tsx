@@ -43,7 +43,7 @@ export default function QuoteForm() {
   }
 
   const inputClass =
-    "mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-white/40 focus:outline-none";
+    "mt-2 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand";
 
   if (status === "success") {
     return (

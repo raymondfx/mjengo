@@ -4,8 +4,12 @@
   --background: #f6f6f1;
   --foreground: #141311;
   --color-stone-950: #0d0d0c;
-  --color-clay-600: #171717;
-  --color-clay-700: #000000;
+  /* Brand teal from the Anirudh Builders logo. clay-600/700 are the site's
+     accent token (used for eyebrows, primary buttons, hovers). */
+  --color-clay-600: #0097b2;
+  --color-clay-700: #007a8f;
+  --color-brand: #0097b2;
+  --color-brand-dark: #007a8f;
 }
 
 @theme inline {
@@ -17,6 +21,8 @@
   --color-stone-950: var(--color-stone-950);
   --color-clay-600: var(--color-clay-600);
   --color-clay-700: var(--color-clay-700);
+  --color-brand: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
 }
 
 body {

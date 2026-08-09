@@ -6,7 +6,7 @@ export const company = {
     "Anirudh Builders Ltd is a trusted building works contractor in Nairobi, delivering quality residential, hospitality, institutional and industrial construction across Kenya.",
   emails: ["anirudhbuildersltd@gmail.com", "info@anirudhbuilders.co.ke"],
   location: "Nairobi, Kenya",
-  address: "L.R. 209/942, Starehe District, Nairobi",
+  address: "Starehe District, Nairobi",
   poBox: "P.O. Box 38243, 00623, Nairobi",
   phones: [
     { display: "0720 004 242", tel: "+254720004242" },

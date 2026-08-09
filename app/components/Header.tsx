@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { company, navLinks } from "../lib/content";
 import { openQuote } from "../lib/quote";
+import LogoMark from "./LogoMark";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -24,20 +25,26 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8">
-        <a href="/#top" className="flex items-baseline gap-2">
-          <span
-            className={`text-lg font-bold tracking-tight sm:text-xl ${
-              scrolled ? "text-stone-950" : "text-white"
-            }`}
-          >
-            ANIRUDH BUILDERS
-          </span>
-          <span
-            className={`text-xs font-medium tracking-widest ${
-              scrolled ? "text-clay-600" : "text-white/70"
-            }`}
-          >
-            LTD
+        <a href="/#top" className="flex items-center gap-2.5">
+          <LogoMark
+            tone={scrolled ? "light" : "dark"}
+            className="h-8 w-auto sm:h-9"
+          />
+          <span className="flex items-baseline gap-2">
+            <span
+              className={`text-lg font-bold tracking-tight sm:text-xl ${
+                scrolled ? "text-stone-950" : "text-white"
+              }`}
+            >
+              ANIRUDH BUILDERS
+            </span>
+            <span
+              className={`text-xs font-medium tracking-widest ${
+                scrolled ? "text-clay-600" : "text-white/70"
+              }`}
+            >
+              LTD
+            </span>
           </span>
         </a>
 
