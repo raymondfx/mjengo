@@ -258,6 +258,7 @@ export const projects = [
     image: "/images/project-muthaiga-real.jpg",
     images: [
       "/images/project-muthaiga-real.jpg",
+      "/images/projects/Muthaiga_North_Apartments_Townhouses_04.jpeg",
       "/images/projects/Muthaiga_North_Apartments_Townhouses_03.jpeg",
     ],
   },
@@ -346,6 +347,122 @@ export const projects = [
       "/images/projects/Nibs_Institute_Ruiru_02.jpeg",
       "/images/projects/Nibs_Institute_Ruiru_03.jpeg",
       "/images/projects/Nibs_Institute_Ruiru_05.jpeg",
+    ],
+  },
+  {
+    slug: "text-book-center",
+    title: "Text Book Center",
+    location: "Kijambe Street, Nairobi",
+    description: "Office block renovation, passages and washrooms.",
+    detail:
+      "A full office-block renovation for Text Book Center on Kijambe Street, Nairobi — refurbished open-plan offices with fitted joinery and pigeonhole storage, tiled circulation passages and new ladies' and gents' washrooms.",
+    image: "/images/projects/Text_Book_Center_Kijambe_Street_01.jpeg",
+    images: [
+      "/images/projects/Text_Book_Center_Kijambe_Street_01.jpeg",
+      "/images/projects/Text_Book_Center_Kijambe_Street_02.jpeg",
+      "/images/projects/Text_Book_Center_Kijambe_Street_03.jpeg",
+      "/images/projects/Text_Book_Center_Kijambe_Street_04.jpeg",
+      "/images/projects/Text_Book_Center_Kijambe_Street_05.jpeg",
+      "/images/projects/Text_Book_Center_Kijambe_Street_06.jpeg",
+    ],
+  },
+  {
+    slug: "kenchic-athi-river",
+    title: "Kenchic Limited",
+    location: "Athi River, Mlolongo",
+    description: "Godown completion, steel works and concrete hardstanding.",
+    detail:
+      "Works at Kenchic Limited's plant in Athi River, Mlolongo — completion of a godown together with structural steel, a reinforced concrete slab and compacted hardcore hardstanding for the external yard and access roads.",
+    image: "/images/projects/Kenchic_Athi_River_Mlolongo_01.jpeg",
+    images: [
+      "/images/projects/Kenchic_Athi_River_Mlolongo_01.jpeg",
+      "/images/projects/Kenchic_Athi_River_Mlolongo_02.jpeg",
+      "/images/projects/Kenchic_Athi_River_Mlolongo_03.jpeg",
+      "/images/projects/Kenchic_Athi_River_Mlolongo_04.jpeg",
+      "/images/projects/Kenchic_Athi_River_Mlolongo_05.jpeg",
+      "/images/projects/Kenchic_Athi_River_Mlolongo_06.jpeg",
+      "/images/projects/Kenchic_Warehouse_01.jpeg",
+    ],
+  },
+  {
+    slug: "baraka-estate",
+    title: "Baraka Estate",
+    location: "Nairobi",
+    description: "34 town houses in a gated estate.",
+    detail:
+      "Baraka Estate is a gated residential development of 34 town houses with tiled pitched roofs, private yards and internal estate roads.",
+    image: "/images/projects/Baraka_Estate_01.jpeg",
+    images: [
+      "/images/projects/Baraka_Estate_01.jpeg",
+      "/images/projects/Baraka_Estate_02.jpeg",
+    ],
+  },
+  {
+    slug: "united-nations-washrooms",
+    title: "United Nations (UN)",
+    location: "Nairobi",
+    description: "125 washroom units for ladies, gents and the disabled.",
+    detail:
+      "Fit-out of 125 washroom units for the United Nations in Nairobi — fully tiled ladies', gents' and accessible facilities with granite vanity counters, cubicle partitions and wall-hung urinals.",
+    image: "/images/projects/United_Nations_UN_Washrooms_01.jpeg",
+    images: [
+      "/images/projects/United_Nations_UN_Washrooms_01.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_02.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_03.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_04.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_05.jpeg",
+      "/images/projects/United_Nations_UN_Washrooms_06.jpeg",
+    ],
+  },
+  {
+    slug: "town-houses-32",
+    title: "32 Town Houses",
+    location: "Kenya",
+    description: "16 three-bedroom and 16 four-bedroom town houses.",
+    detail:
+      "A residential estate of 32 town houses — 16 three-bedroom and 16 four-bedroom units — delivered from super-structure and internal roads through to completed, landscaped homes.",
+    image: "/images/projects/Town_Houses_Estate_32_01.jpeg",
+    images: [
+      "/images/projects/Town_Houses_Estate_32_01.jpeg",
+      "/images/projects/Town_Houses_Estate_32_02.jpeg",
+    ],
+  },
+  {
+    slug: "apartments-70-penthouses",
+    title: "70-Unit Apartment Block",
+    location: "Kenya",
+    description: "70 two-bedroom apartments and 10 three-bedroom penthouses.",
+    detail:
+      "A completed five-storey residential block of 70 two-bedroom apartments and 10 three-bedroom penthouses, with balconies to every unit and parking at ground level.",
+    image: "/images/projects/Apartments_70_Penthouses_01.jpeg",
+    images: ["/images/projects/Apartments_70_Penthouses_01.jpeg"],
+  },
+  {
+    slug: "lovington-concrete-roof-units",
+    title: "Lovington Concrete Roof Units",
+    location: "Nairobi",
+    description: "6 concrete-roofed units.",
+    detail:
+      "A development of six concrete-roofed units at Lovington, built from super-structure through to the distinctive cast-concrete roofs.",
+    image: "/images/projects/Lovington_Concrete_Roof_Units_01.jpeg",
+    images: [
+      "/images/projects/Lovington_Concrete_Roof_Units_01.jpeg",
+      "/images/projects/Lovington_Concrete_Roof_Units_02.jpeg",
+    ],
+  },
+  {
+    slug: "aga-khan-high-school-waiyaki-way",
+    title: "Aga Khan High School",
+    location: "Waiyaki Way, Nairobi",
+    description: "Steel roof reconstruction and interior refurbishment.",
+    detail:
+      "Works at Aga Khan High School on Waiyaki Way — structural steel roof reconstruction with new concrete rainwater gutters, alongside refurbished interiors including a reception and study hall.",
+    image: "/images/projects/Aga_Khan_High_School_Waiyaki_Way_04.jpeg",
+    images: [
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_04.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_05.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_02.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_03.jpeg",
     ],
   },
 ];
