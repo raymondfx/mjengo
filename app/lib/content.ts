@@ -146,6 +146,7 @@ export const services = [
     images: [
       "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
       "/images/projects/Masai_Mara_Private_Conservancy_Lounge_02.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Interior_01.jpeg",
       "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
       "/images/projects/Nibs_Institute_Ruiru_03.jpeg",
       "/images/projects/Nibs_Institute_Ruiru_05.jpeg",
