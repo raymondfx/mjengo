@@ -49,9 +49,9 @@ export const services = [
     title: "Residential Construction",
     icon: "home",
     description:
-      "Family homes, apartment blocks and townhouse developments — from Muthaiga North to Juja South Estate.",
+      "Family homes, apartment blocks and townhouse developments — from Trident Heights Riara Road to Juja South Estate.",
     detail:
-      "From private residences and apartment blocks to townhouse estates, we deliver homes across Nairobi and beyond — including the Rosslyn residence, Muthaiga North apartments, Kisuri Hills in Naivasha and Juja South Estate.",
+      "From private residences and apartment blocks to townhouse estates, we deliver homes across Nairobi and beyond — including the Rosslyn residence, Trident Heights Riara Road apartments, Kisuri Hills in Naivasha and Juja South Estate.",
     image: "/images/projects/Rosslyn_Project_01.jpeg",
     images: [
       "/images/projects/Rosslyn_Project_01.jpeg",
@@ -215,6 +215,14 @@ export const projects = [
       "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
       "/images/projects/Masai_Mara_Wildlife_Near_Cottages_01.jpeg",
       "/images/projects/Masai_Mara_Wildlife_Near_Cottages_02.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Interior_01.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Construction_01.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Construction_02.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Construction_03.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Construction_04.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Construction_05.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Exterior_Dusk_01.jpeg",
+      "/images/projects/Masai_Mara_Private_Conservancy_Exterior_Dusk_02.jpeg",
     ],
   },
   {
@@ -249,12 +257,12 @@ export const projects = [
     ],
   },
   {
-    slug: "muthaiga-north-apartments",
-    title: "Muthaiga North Apartments",
-    location: "Muthaiga, Nairobi",
+    slug: "trident-heights-riara-road",
+    title: "Trident Heights Riara Road",
+    location: "Riara Road, Nairobi",
     description: "24 three-bedroom and 6 four-bedroom apartments.",
     detail:
-      "A 30-unit apartment development in Muthaiga North for client Lizzie Muthoni Wanyoike — 24 three-bedroom and 6 four-bedroom units.",
+      "A 30-unit apartment development at Trident Heights, Riara Road for client Lizzie Muthoni Wanyoike — 24 three-bedroom and 6 four-bedroom units.",
     image: "/images/project-muthaiga-real.jpg",
     images: [
       "/images/project-muthaiga-real.jpg",
