@@ -14,7 +14,14 @@ export const company = {
   ],
 };
 
-export const directors = ["Hasmukh Pindoriya", "Rajendra Vekaria"];
+export const directors = [
+  {
+    name: "Hasmukh Pindoriya",
+    title: "Director",
+    bio: "Former Director, Guru Builders Ltd",
+  },
+  { name: "Rajendra Vekaria", title: "Director" },
+];
 
 export const navLinks = [
   { href: "/#about", label: "About" },

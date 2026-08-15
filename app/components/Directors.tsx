@@ -9,12 +9,19 @@ export default function Directors() {
             Leadership
           </p>
           <div className="flex flex-wrap gap-x-12 gap-y-4">
-            {directors.map((name) => (
-              <div key={name}>
+            {directors.map((director) => (
+              <div key={director.name}>
                 <p className="text-lg font-semibold text-stone-950">
-                  {name}
+                  {director.name}
                 </p>
-                <p className="mt-1 text-sm text-stone-950/50">Director</p>
+                <p className="mt-1 text-sm text-stone-950/50">
+                  {director.title}
+                </p>
+                {director.bio && (
+                  <p className="mt-1 text-sm text-stone-950/50">
+                    {director.bio}
+                  </p>
+                )}
               </div>
             ))}
           </div>
