@@ -151,6 +151,8 @@ export const services = [
       "/images/projects/Nibs_Institute_Ruiru_03.jpeg",
       "/images/projects/Nibs_Institute_Ruiru_05.jpeg",
       "/images/projects/United_Nations_UN_Washrooms_01.jpeg",
+      "/images/projects/Interior_FitOut_Bathroom_Floral_01.jpeg",
+      "/images/projects/Interior_FitOut_Bathroom_Ensuite_01.jpeg",
     ],
   },
   {
