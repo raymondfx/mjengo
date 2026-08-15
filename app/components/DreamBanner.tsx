@@ -5,8 +5,8 @@ export default function DreamBanner() {
   return (
     <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
       <Image
-        src="/images/project-rosslyn-2.jpg"
-        alt="Completed pool and residence built by Anirudh Builders Ltd"
+        src="/images/projects/Masai_Mara_Private_Conservancy_Exterior_Dusk_02.jpeg"
+        alt="Completed safari lodge at dusk, built by Anirudh Builders Ltd"
         fill
         sizes="100vw"
         className="object-cover"
