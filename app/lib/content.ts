@@ -83,7 +83,7 @@ export const services = [
     images: [
       "/images/projects/Masai_Mara_Private_Conservancy_Poriniolkinyei_01.jpeg",
       "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
-      "/images/projects/Sopa_Lodge_Nakuru_03.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_02.jpeg",
       "/images/projects/Masai_Mara_Private_Conservancy_Lounge_01.jpeg",
       "/images/projects/Masai_Mara_Wildlife_Near_Cottages_01.jpeg",
     ],
@@ -207,8 +207,10 @@ export const projects = [
     image: "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
     images: [
       "/images/projects/Sopa_Lodge_Nakuru_01.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_02.jpeg",
       "/images/projects/Sopa_Lodge_Nakuru_03.jpeg",
       "/images/projects/Sopa_Lodge_Nakuru_04.jpeg",
+      "/images/projects/Sopa_Lodge_Nakuru_05.jpeg",
     ],
   },
   {
