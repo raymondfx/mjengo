@@ -345,13 +345,12 @@ export const projects = [
     description: "Library hall with mezzanine floor for Aga Khan Academy.",
     detail:
       "A library hall for Aga Khan Academy with a mezzanine floor, built-in shelving and a spiral staircase connecting the two levels.",
-    image:
-      "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
+    image: "/images/projects/Aga_Khan_Academy_Library_Hall_03.jpeg",
     images: [
+      "/images/projects/Aga_Khan_Academy_Library_Hall_03.jpeg",
+      "/images/projects/Aga_Khan_Academy_Library_Hall_02.jpeg",
       "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_01.jpeg",
       "/images/projects/Waiyaki_Way_High_School_Aga_Khan_Academy_Library_02.jpeg",
-      "/images/projects/Aga_Khan_Academy_Library_Hall_02.jpeg",
-      "/images/projects/Aga_Khan_Academy_Library_Hall_03.jpeg",
     ],
   },
   {
