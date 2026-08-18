@@ -90,7 +90,7 @@ export default async function ProjectPage({
                     i === galleryImages.length - 1;
                   return (
                     <div
-                      key={image}
+                      key={`${image}-${i}`}
                       className={`relative aspect-[4/3] w-full overflow-hidden rounded-xl ${
                         isLastOdd ? "sm:col-span-2 sm:aspect-[16/7]" : ""
                       }`}

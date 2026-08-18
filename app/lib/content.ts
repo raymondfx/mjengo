@@ -293,6 +293,7 @@ export const projects = [
       "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
     images: [
       "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
+      "/images/projects/Wilson_Airport_Aeroclub_East_Africa_Security_Building_01.jpeg",
     ],
   },
   {
