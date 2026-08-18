@@ -415,6 +415,7 @@ export const projects = [
     image: "/images/projects/Baraka_Estate_01.jpeg",
     images: [
       "/images/projects/Baraka_Estate_01.jpeg",
+      "/images/projects/Baraka_Estate_01.jpeg",
       "/images/projects/Baraka_Estate_02.jpeg",
     ],
   },
