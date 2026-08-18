@@ -477,12 +477,12 @@ export const projects = [
     description: "Steel roof reconstruction and interior refurbishment.",
     detail:
       "Works at Aga Khan High School on Waiyaki Way — structural steel roof reconstruction with new concrete rainwater gutters, alongside refurbished interiors including a reception and study hall.",
-    image: "/images/projects/Aga_Khan_High_School_Waiyaki_Way_04.jpeg",
+    image: "/images/projects/Aga_Khan_High_School_Waiyaki_Way_02.jpeg",
     images: [
-      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_04.jpeg",
-      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_05.jpeg",
       "/images/projects/Aga_Khan_High_School_Waiyaki_Way_02.jpeg",
       "/images/projects/Aga_Khan_High_School_Waiyaki_Way_03.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_04.jpeg",
+      "/images/projects/Aga_Khan_High_School_Waiyaki_Way_05.jpeg",
     ],
   },
 ];
