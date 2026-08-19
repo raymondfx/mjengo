@@ -263,9 +263,17 @@ export const projects = [
     image: "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
     images: [
       "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_01.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_02.jpeg",
       "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_03.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_04.jpeg",
       "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_05.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_06.jpeg",
       "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_07.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_08.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_09.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_10.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_11.jpeg",
+      "/images/projects/Naivasha_Stefano_Elizabeth_Kisuri_Hills_12.jpeg",
     ],
   },
   {
@@ -460,16 +468,16 @@ export const projects = [
     images: ["/images/projects/Apartments_70_Penthouses_01.jpeg"],
   },
   {
-    slug: "lovington-concrete-roof-units",
-    title: "Lovington Concrete Roof Units",
+    slug: "lavington-concrete-roof-units",
+    title: "Lavington Concrete Roof Units",
     location: "Nairobi",
     description: "6 concrete-roofed units.",
     detail:
-      "A development of six concrete-roofed units at Lovington, built from super-structure through to the distinctive cast-concrete roofs.",
-    image: "/images/projects/Lovington_Concrete_Roof_Units_01.jpeg",
+      "A development of six concrete-roofed units at Lavington, built from super-structure through to the distinctive cast-concrete roofs.",
+    image: "/images/projects/Lavington_Concrete_Roof_Units_01.jpeg",
     images: [
-      "/images/projects/Lovington_Concrete_Roof_Units_01.jpeg",
-      "/images/projects/Lovington_Concrete_Roof_Units_02.jpeg",
+      "/images/projects/Lavington_Concrete_Roof_Units_01.jpeg",
+      "/images/projects/Lavington_Concrete_Roof_Units_02.jpeg",
     ],
   },
   {
