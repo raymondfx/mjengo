@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import QuoteButton from "../../components/QuoteButton";
+import ShareButton from "../../components/ShareButton";
 import { projects, company } from "../../lib/content";
 
 export function generateStaticParams() {
@@ -76,9 +77,15 @@ export default async function ProjectPage({
             <p className="text-lg leading-relaxed text-stone-950/70">
               {project.detail}
             </p>
-            <QuoteButton className="mt-8 inline-block rounded-full bg-clay-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-clay-700">
-              Request a Quote
-            </QuoteButton>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <QuoteButton className="inline-block rounded-full bg-clay-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-clay-700">
+                Request a Quote
+              </QuoteButton>
+              <ShareButton
+                title={`${project.title}, ${project.location}`}
+                className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3.5 text-sm font-semibold text-[#0b3d24] transition-opacity hover:opacity-90"
+              />
+            </div>
           </div>
 
           {galleryImages.length > 0 && (

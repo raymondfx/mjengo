@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import QuoteModal from "./components/QuoteModal";
 
@@ -32,6 +33,18 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {children}
         <QuoteModal />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-52KQN4W7VD"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-52KQN4W7VD');
+          `}
+        </Script>
       </body>
     </html>
   );
