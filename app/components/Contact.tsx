@@ -1,13 +1,7 @@
 import { company } from "../lib/content";
 import QuoteForm from "./QuoteForm";
-import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 export default function Contact() {
-  const phoneDigits = company.phones[0].tel.replace(/[^0-9]/g, "");
-  const whatsappHref = `https://wa.me/${phoneDigits}?text=${encodeURIComponent(
-    "Hello Anirudh Builders, I'd like to request a quote for a construction project.",
-  )}`;
-
   return (
     <section id="contact" className="bg-stone-950 py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-5 lg:grid-cols-2 lg:gap-16 lg:px-8">
@@ -20,18 +14,8 @@ export default function Contact() {
           </h2>
           <p className="mt-4 max-w-md text-base text-white/60">
             Tell us about your site and scope of work. We&apos;ll follow up to
-            discuss next steps — or message us on WhatsApp for a quick reply.
+            discuss next steps.
           </p>
-
-          <a
-            href={whatsappHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-[#0b3d24] transition-opacity hover:opacity-90"
-          >
-            <WhatsAppIcon />
-            Chat on WhatsApp
-          </a>
 
           <dl className="mt-10 space-y-6">
             <div>

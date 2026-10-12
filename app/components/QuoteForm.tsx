@@ -38,7 +38,7 @@ export default function QuoteForm() {
       }
     } catch {
       setStatus("error");
-      setErrorMsg("Network error — please try again, or reach us on WhatsApp.");
+      setErrorMsg("Network error — please try again, or give us a call.");
     }
   }
 
@@ -67,7 +67,7 @@ export default function QuoteForm() {
         </h3>
         <p className="mt-2 max-w-sm text-sm text-white/60">
           We&apos;ve received your enquiry and will get back to you shortly. For
-          anything urgent, reach us on WhatsApp.
+          anything urgent, give us a call.
         </p>
         <button
           type="button"

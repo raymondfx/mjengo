@@ -2,16 +2,8 @@ import Image from "next/image";
 import { company, credentials } from "../lib/content";
 import QuoteButton from "./QuoteButton";
 import ShareButton from "./ShareButton";
-import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 export default function Hero() {
-  const whatsappHref = `https://wa.me/${company.phones[0].tel.replace(
-    /[^0-9]/g,
-    "",
-  )}?text=${encodeURIComponent(
-    "Hello Anirudh Builders, I'd like to request a quote for a construction project.",
-  )}`;
-
   return (
     <section
       id="top"
@@ -57,15 +49,6 @@ export default function Hero() {
           <QuoteButton className="rounded-full border border-white/30 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/15">
             Request a Quote
           </QuoteButton>
-          <a
-            href={whatsappHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-7 py-3.5 text-sm font-semibold text-[#0b3d24] shadow-lg shadow-black/20 transition-opacity hover:opacity-90"
-          >
-            <WhatsAppIcon />
-            Chat on WhatsApp
-          </a>
           <ShareButton
             title={`${company.name} — ${company.tagline}`}
             label="Share Site"
